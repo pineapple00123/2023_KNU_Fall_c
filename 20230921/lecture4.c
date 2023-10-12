@@ -11,7 +11,7 @@ int main(void) {
     int total_inside_circle = 0;
     srand(time(NULL));
 
-    for (int i = 0; i < total_attempts; i++) {
+    for (int i = 1; i <= total_attempts; i++) {
         x = (double)rand() / (double)RAND_MAX;
         y = (double)rand() / (double)RAND_MAX;
 
