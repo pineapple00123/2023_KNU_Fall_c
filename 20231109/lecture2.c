@@ -13,7 +13,15 @@ int main(void)
          number++;
       }
    }
-
+   for (int i = 0; i < 5; i++)
+   {
+      for (int e = 0; e < 5; e++)
+      {
+         printf("%d ", arry[i][e]);
+      }
+      printf("\n");
+   }
+   printf("change row & column\n");
    for (int i = 0; i < 5; i++)
    {
       for (int e = 0; e < 5; e++)
