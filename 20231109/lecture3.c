@@ -17,5 +17,5 @@ int main(void)
     pointer1 = &a;
     pointer2 = &b;
     swap(pointer1, pointer2);
-    printf("%d %d", *pointer1, *pointer2);
+    printf("%d %d\n", *pointer1, *pointer2);
 }
